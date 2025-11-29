@@ -1,7 +1,6 @@
 🍕 Domino’s Pizza Store Analysis – SQL Project
-📌 Project Overview
 
-Database: p1_dominos_db
+📌 Project Overview
 
 This project showcases SQL techniques used to explore, clean, and analyze pizza store operational data. The goal is to understand order patterns, customer behavior, revenue drivers, and menu performance to support business decision-making.
 
