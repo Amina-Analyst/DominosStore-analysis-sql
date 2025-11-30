@@ -1,5 +1,4 @@
 <img width="1393" height="520" alt="Screenshot 2025-11-30 014516" src="https://github.com/user-attachments/assets/ec65df01-c100-4149-aa20-755206034ffa" />
-
 🍕 Domino’s Pizza Store Analysis – SQL Project
 
 🎯 Objectives
