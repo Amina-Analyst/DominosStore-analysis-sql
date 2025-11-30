@@ -1,76 +1,168 @@
 <img width="1393" height="520" alt="Screenshot 2025-11-30 014516" src="https://github.com/user-attachments/assets/ec65df01-c100-4149-aa20-755206034ffa" />
-🍕 Domino’s Pizza Store Analysis – SQL Project
 
-🎯 Objectives
+## 🍕Domino’s Pizza Store Analysis SQL Project
+## Project Overview
 
-• Database Setup: Create and populate Domino’s order, pizza, and customer tables.
-• Data Cleaning: Identify and remove null, missing, or inconsistent records.
-• Exploratory Data Analysis (EDA): Explore customer behavior, order trends, revenue  
-   distribution, and menu insights.
-• Business Insights: Answer stakeholder questions using SQL analytics to derive actionable 
-   conclusions.
+This project demonstrates SQL techniques used by analysts to explore, clean, and analyze pizza sales and customer data. It focuses on uncovering insights about order patterns, revenue, customer behavior, and menu performance to support data‑driven decision‑making.
 
- 🗄️ Database Structure Tables
+---
 
-• orders – order-level info (order_id, custId, order_date, order_time)
-• order_details – line-level details (order_detail_id, order_id, pizza_id, quantity)
-• pizzas – pizza details (pizza_id, pizza_type_id, size, price)
-• pizza_types – pizza type info (pizza_type_id, name, category)
-• customers – customer details (custId, first_name, last_name)
+## Objectives
 
-🧹 Data Cleaning & Exploration
+* **Set up the Domino’s pizza database:** Create and populate tables including orders, pizzas, and customers.
+* **Data Cleaning:** Identify and remove null or inconsistent records.
+* **Exploratory Data Analysis (EDA):** Understand customer behavior, order trends, and menu performance.
+* **Business Analysis:** Answer stakeholder‑driven questions to derive actionable insights.
 
-• Verify row counts for accuracy
-• Identify missing/null values
-• Remove or fix inconsistent records
-• Validate foreign key relationships
-• Explore basic trends before analysis
+---
 
-🧠 Analysis & SQL Queries
+## Database Structure
 
-1.Order Volume Analysis
+### Tables
 
-• Total unique orders
-• Monthly order trends
-• Day-of-week patterns
-• Repeat customers
-• Avg. orders per customer
-• Cumulative order trend over time
+* **orders:** order_id, custId, order_date, order_time
+* **order_details:** order_detail_id, order_id, pizza_id, quantity
+* **pizzas:** pizza_id, pizza_type_id, size, price
+* **pizza_types:** pizza_type_id, name, category
+* **customers:** custId, first_name, last_name
 
-2. Revenue Analysis
+---
 
-• Total revenue
-• Highest-priced pizza
-• Top revenue-generating pizzas
-• Revenue contribution by category
-• Monthly cumulative revenue
+## Data Cleaning & Exploration
 
-3.Menu Performance
+* Verified total records in each table.
+* Checked for null or missing values in critical fields.
+* Removed incomplete or inconsistent records.
+* Explored distributions, trends, and outliers.
 
-• Most common pizza size
-• Top 5 pizza types by quantity sold
-• Category-wise quantity & share
-• Top 3 pizzas per category (revenue)
+---
 
-4. Customer Insights
+## Analysis & Key SQL Queries
 
-• Top 10 customers by total spend
-• High-value vs. regular customer segmentation
-• Repeat customer rate
+### 1. Orders Volume Analysis
 
-5. Operational Insights
+* Total unique orders
+* Monthly order breakdown
+* Day‑of‑week analysis
+* Repeat customers
+* Average orders per customer
+* Cumulative order trends
 
-• Orders by hour of the day
-• Orders by weekday
-• Average number of pizzas per order
-• Seasonal (monthly/holiday) trends
+### 2. Total Revenue from Pizza Sales
 
-🔍 Key Findings
+Compute total revenue across all pizza transactions.
 
-• Customer Behavior: Clear identification of high-value and repeat customers.
-• Order Trends: Peak ordering hours, weekday patterns, and seasonal trends.
-• Menu Insights: Top-selling pizzas, most profitable items, and size preferences.
-• Revenue Performance: Strong understanding of category-wise and size-wise revenue.
-• Operational Efficiency: Insights to optimize staffing and inventory based on demand.
+### 3. Highest‑Priced Pizza
+
+Identify the most expensive pizza on the menu.
+
+### 4. Most Common Pizza Size Ordered
+
+Determine the size customers order most frequently.
+
+### 5. Top 5 Most Ordered Pizza Types
+
+Identify pizza types with the highest overall sales.
+
+### 6. Total Quantity by Pizza Category
+
+Count pizzas sold across categories.
+
+### 7. Orders by Hour of the Day
+
+Find peak ordering hours to improve staffing.
+
+### 8. Category‑Wise Pizza Distribution
+
+Measure category shares and distribution.
+
+### 9. Average Pizzas Ordered per Day
+
+Gauge daily demand stability.
+
+### 10. Top 3 Pizzas by Revenue
+
+Identify pizzas contributing the most revenue.
+
+### 11. Revenue Contribution per Pizza
+
+Calculate category and item contribution percentages.
+
+### 12. Cumulative Revenue Over Time
+
+Track revenue growth month‑by‑month.
+
+### 13. Top 3 Pizzas by Category
+
+Revenue‑ranked pizzas within each category.
+
+### 14. Top 10 Customers by Spending
+
+Identify and profile highest‑spending customers.
+
+### 15. Orders by Weekday
+
+Find the busiest days of the week.
+
+### 16. Average Order Size
+
+Calculate average pizzas per order.
+
+### 17. Seasonal Trends
+
+Determine monthly and holiday‑based sales patterns.
+
+### 18. Revenue by Pizza Size
+
+Revenue distribution across sizes (S, M, L, XL, XXL).
+
+### 19. Customer Segmentation
+
+Classify customers as High Value or Regular based on spending.
+
+### 20. Repeat Customer Rate
+
+Percentage of customers placing more than one order.
+
+---
+
+## Key Findings
+
+### Customer Behavior
+
+* Identified high‑value and repeat customers.
+* Customer segmentation reveals strong loyalty segments.
+
+### Order Trends
+
+* Peak ordering hours and high‑traffic days discovered.
+* Seasonal patterns highlight specific demand cycles.
+
+### Menu Insights
+
+* Identified top‑selling pizzas and sizes.
+* Analyzed revenue contribution by category and item.
+
+### Revenue Analysis
+
+* Monthly and cumulative revenue trends show steady growth.
+* Size‑wise and category‑wise contributions highlight profitable segments.
+
+### Operational Insights
+
+* Daily pizza volume and average order size inform staffing decisions.
+* Repeat customer insights support loyalty program planning.
+
+---
+
+## Conclusion
+
+This project provides a complete exploration of Domino’s pizza sales data using SQL. The findings help stakeholders understand customer behavior, optimize operations, refine menu offerings, and support strategic growth decisions.
+
+---
+
+## Future Enhancements
+
+* Add visual dashboards (Power BI, Tableau).
 
 
